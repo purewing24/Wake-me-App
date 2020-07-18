@@ -1,0 +1,43 @@
+PODS:
+  - Kingfisher (5.13.2):
+    - Kingfisher/Core (= 5.13.2)
+  - Kingfisher/Core (5.13.2)
+  - NCMB (3.0.4)
+  - NYXImagesKit (2.3)
+  - PKHUD (5.3.0)
+  - "UITextView+Placeholder (1.4.0)"
+
+DEPENDENCIES:
+  - Kingfisher
+  - NCMB (from `https://github.com/NIFTYCloud-mbaas/ncmb_ios.git`, branch `develop`)
+  - NYXImagesKit
+  - PKHUD
+  - "UITextView+Placeholder"
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - NYXImagesKit
+    - PKHUD
+    - "UITextView+Placeholder"
+
+EXTERNAL SOURCES:
+  NCMB:
+    :branch: develop
+    :git: https://github.com/NIFTYCloud-mbaas/ncmb_ios.git
+
+CHECKOUT OPTIONS:
+  NCMB:
+    :commit: 153345a254a30fd0e98e37d342999e7af87c0bd4
+    :git: https://github.com/NIFTYCloud-mbaas/ncmb_ios.git
+
+SPEC CHECKSUMS:
+  Kingfisher: d342c8354c10c3d85a27d6d4c42c41285924b898
+  NCMB: db326e289b0abd5ca220b6781bda873a7d3807ea
+  NYXImagesKit: 8163e3335a40eaa173ca5bbbf81fafb57d3947eb
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
+
+PODFILE CHECKSUM: 616a970460847c8b9ef7693a8be0b237e42c610f
+
+COCOAPODS: 1.8.4
